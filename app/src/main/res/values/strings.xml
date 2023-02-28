@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SRIST</string>
+    <string name="Profile">profile</string>
+    <string name="Notifications">notifications</string>
+    <string name="Settings">settings</string>
+    <string name="Support">support</string>
+    <string name="About_us">aboutus</string>
 </resources>
