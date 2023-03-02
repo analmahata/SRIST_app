@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Sign In"
+        android:text="@string/sign_in"
         android:textSize="30sp"
         android:textStyle="bold"
         android:textColor="#000000"/>
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Welcome back. Please login to your account"
+        android:text="@string/welcome_back_mesage"
         android:layout_marginTop="5dp"/>
 
     <EditText
@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:background="@drawable/rectangle"
-        android:hint="Mobile number"
+        android:hint="@string/mobile_number"
         android:autofillHints="phone"
         android:maxLines="1"
         android:inputType="text"
@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/rectangle"
-            android:hint="Password"
+            android:hint="@string/password"
             android:autofillHints="password"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
@@ -81,7 +81,7 @@
         android:layout_gravity="end"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:text="Forget password"
+        android:text="@string/forget_password"
         android:textColor="@color/primary"/>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -91,7 +91,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="40dp"
-        android:text="Sign In"
+        android:text="@string/sign_in"
         android:textColor="@color/white"
         android:textSize="25sp"
         android:textAllCaps="false"
@@ -116,7 +116,7 @@
             android:id="@+id/orText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="OR"
+            android:text="@string/or"
             android:layout_centerInParent="true"
             android:textColor="#80000000"
             android:textSize="12sp" />
@@ -129,7 +129,6 @@
             android:layout_marginEnd="20dp"
             android:layout_toEndOf="@+id/orText"
             android:background="#1A000000" />
-        />
     </RelativeLayout>
 
 
@@ -154,7 +153,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="Sign In with google"
+            android:text="@string/google_sign_in"
             android:textColor="#E6000000"
             android:textStyle="bold" />
     </RelativeLayout>
@@ -169,14 +168,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Don't have an account?"/>
+            android:text="@string/don_t_have_an_account"/>
 
         <TextView
             android:id="@+id/signUpBtn"
             android:layout_marginStart="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign up"
+            android:text="@string/sign_up"
             android:textColor="@color/primary"
             android:textStyle="bold"/>
     </LinearLayout>
